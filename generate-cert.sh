@@ -27,10 +27,7 @@ DNS.1 = localhost
 DNS.2 = $HOSTNAME
 DNS.3 = $HOSTNAME.unixmen.local
 DNS.6 = app
-DNS.7 = matan
-DNS.8 = matan.unixmen.local
-DNS.9 = ori
-DNS.10 = ori.unixmen.local
+# DNS.N = foo.bar
 EOF
 
 openssl x509 -req -sha512 -days 365 \
